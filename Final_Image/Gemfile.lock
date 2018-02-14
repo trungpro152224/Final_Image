@@ -85,6 +85,9 @@ GEM
     ffi (1.9.21)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
+    hpricot (0.8.6)
+    html2slim (0.2.0)
+      hpricot
     i18n (0.9.4)
       concurrent-ruby (~> 1.0)
     jbuilder (2.7.0)
@@ -244,6 +247,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   delayed_job (~> 4.1, >= 4.1.4)
   devise (~> 4.4, >= 4.4.1)
+  html2slim
   i18n (~> 0.9.4)
   jbuilder (~> 2.5)
   kaminari (~> 1.1, >= 1.1.1)
