@@ -1,18 +1,19 @@
-header
- div class = "header-menu"
-	div class = "header-menu-left"
-		div class = "container-fluilt"
-			div class = "header-menu-left-glificon"
-				span class="glyphicon glyphicon-camera" aria-hidden="true"
+header class ="navbar navbar-default"
+	div class ="navbar-inner"
+		div class ="container"
+			div class ="navbar-header"
+  				span = link_to "FINAL IMAGE", root_path
+			
 
-	div class = "header-menu-right"
-		div class = "container-fluilt"
-			div class ="header-menu-right-dropdown"
-				ul class="nav nav-tabs"
-  				li role="presentation" class="active" <a href="#"> Home	
-  				li role="presentation" <a href="#"> Albums
-  				li role="presentation" <a href="#"> Profile
-  				li role="presentation" <a href="#"> Login
-  				li role="presentation" <a href="#"> Logout
-<br>
+			nav class="navbar-collapse bs-navbar-collapse collapse"
+        		ul class="nav navbar-nav navbar-right"
 
+          			li = link_to "Home", "#"
+          			li = link_to "Albums", "#"
+          			li = link_to "Image", "#"
+          			li = link_to "Login", "#"
+          			li = link_to "Logout", "#"
+          			button class = "btn btn-default" Submit a photo
+          			li = link_to "Profile", "#"
+
+          	
